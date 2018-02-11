@@ -34,5 +34,14 @@ int main(int argc, char **argv)
         printf("ia3[%d] = %d\n", i, *(ia3 + i));
     }
 
+    printf("\n");
+
+    int ia4[5] = {1,2,3,4,5};
+
+    for (int * ip4 = ia4; *ip4 != 5; ip4++)
+    {
+        printf("ia4[%d] %d\n",*ip4-1, *ip4);
+    }
+
 
 }
