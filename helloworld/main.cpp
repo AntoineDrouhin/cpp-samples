@@ -1,17 +1,17 @@
-//hello.cpp
+//main.cpp
 
 /*******
 Basic Hello World,
 
-Display Hello World to the screen
+Display Hello World
 *******/
 
 #include <cstdio>
 using namespace std;
 
-int main( int argc, char ** argv )
+int main(int argc, char **argv)
 {
-    const char * str = "Hello World";
+    const char *str = "Hello World\n";
     puts(str);
     return 0;
 }
